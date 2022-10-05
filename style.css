@@ -19,7 +19,7 @@ body{
 
 .title1{
     color: #384245;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal;
     text-align: center;
 }
@@ -33,7 +33,8 @@ body{
 
 .boxProducts{
     margin: 5px;
-    margin-top: 10px;;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .products{
@@ -57,31 +58,44 @@ body{
 .card img{
     width: 250px;
 }
-.card a{
+.linkCompra{
     text-decoration: none;
     cursor: pointer;
     color: #F26A1B;
     text-align: center;
-    margin-bottom: 5px;
     margin-top: 5px;
+    margin-bottom: 10px;
     font-size: 15px;
 }
-.card a:hover{
+.linkCompra:hover{
     font-weight: bolder;
 }
 
-.card button {
-    text-decoration: none;
-    border: #F26A1B solid 1px;
-    border-radius: 3px;
-    color: #F26A1B;
-    cursor: pointer;
+.boxBoton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
     height: 30px;
+    border: #F26A1B solid 1px;
     background-color: white;
+    border-radius: 3px;
+    padding: 0px;
 }
-
-.card button:hover{
+.boxBoton:hover{
     color: #fff;
     background-color: #F26A1B;
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 1)
+}
+.boton {
+    text-decoration: none;
+    color: #F26A1B;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 6px;
+}
+.boton:hover{
+    color: #fff; 
 }
