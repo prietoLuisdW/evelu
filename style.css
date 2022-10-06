@@ -20,14 +20,16 @@ body{
 .brand{
     padding-left: 20px;
     color: #000622;
+
 }
+
 
 .title1{
     color: #384245;
     font-size: 18px;
     font-weight: normal;
-    text-align: center;
     text-decoration: none;
+    padding-left: 20px;
 }
 .compra{
     border-left: solid 5px #214C54 ;
@@ -41,6 +43,18 @@ body{
     color: #fff;
     background-color: #214C54;
     transition: .5s ease all;
+}
+
+@media (max-width: 620px){
+    .compra{
+        font-size: 14px;
+    }
+    .title1{
+        font-size: 14px;
+    }
+    .brand{
+        font-size: 18px;
+    }
 }
 
 .title{
