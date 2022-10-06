@@ -35,17 +35,21 @@ body{
     border-left: solid 5px #214C54 ;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
 }
 .compra:hover{
     border-radius: 3px;
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
-    padding: 10px;
     color: #fff;
     background-color: #214C54;
     transition: .5s ease all;
 }
 
 @media (max-width: 620px){
+    .head{
+        grid-template-columns: 1fr 1fr;
+    }
     .compra{
         font-size: 14px;
     }
@@ -82,6 +86,7 @@ body{
     border-radius: 3px;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 .card:hover{
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
