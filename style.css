@@ -12,16 +12,35 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    height: 100px;
+    height: 80px;
     box-shadow: 0px 10px 10px -6px black;
     background-color: #F2F2F2;
 }
 
+.brand{
+    padding-left: 20px;
+    color: #000622;
+}
+
 .title1{
     color: #384245;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     text-align: center;
+    text-decoration: none;
+}
+.compra{
+    border-left: solid 5px #214C54 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.compra:hover{
+    border-radius: 3px;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+    padding: 10px;
+    color: #fff;
+    background-color: #214C54;
+    transition: .5s ease all;
 }
 
 .title{
@@ -42,8 +61,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .card{
@@ -56,12 +74,12 @@ body{
     transition: .5s ease all; 
 }
 .card img{
-    width: 250px;
+    height: 350px;
 }
 .linkCompra{
     text-decoration: none;
     cursor: pointer;
-    color: #F26A1B;
+    color: #214C54;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -77,19 +95,19 @@ body{
     align-items: center;
     text-align: center;
     height: 30px;
-    border: #F26A1B solid 1px;
+    border: #214C54 solid 1px;
     background-color: white;
     border-radius: 3px;
     padding: 0px;
 }
 .boxBoton:hover{
     color: #fff;
-    background-color: #F26A1B;
+    background-color: #214C54;
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 1)
 }
 .boton {
     text-decoration: none;
-    color: #F26A1B;
+    color: #214C54;
     cursor: pointer;
     width: 100%;
     text-align: center;
