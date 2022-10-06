@@ -61,16 +61,26 @@ body{
     }
 }
 
+.boxTitle{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.boxTitle:hover{
+    background-color: #CEE3DB;
+}
 .title{
     font-size: 20px;
     color: #384245;
     font-weight: bolder;
     text-align: center;
+    text-decoration: none;
 }
 
 .boxProducts{
     margin: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
@@ -79,7 +89,6 @@ body{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 30px;
 }
 
 .card{
