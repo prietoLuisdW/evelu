@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    box-shadow: 0px 10px 10px -6px black;
+    box-shadow: 0px 10px 10px -6px #214C54;
     background-color: #F2F2F2;
 }
 
@@ -49,7 +49,7 @@ body{
     padding: 15px;
     overflow: hidden;
     transition: all 0.5s;
-    width: 200px;
+    width: 180px;
 
 }
 .action1::before{
@@ -88,9 +88,12 @@ body{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px #214C54;
 }
 .boxTitle:hover{
     background-color: #CEE3DB;
+    transition: all 0.5s ease;
 }
 .title{
     font-size: 20px;
@@ -98,6 +101,7 @@ body{
     font-weight: bolder;
     text-align: center;
     text-decoration: none;
+
 }
 
 .boxProducts{
@@ -129,18 +133,7 @@ body{
 .card img{
     height: 300px;
 }
-.linkCompra{
-    text-decoration: none;
-    cursor: pointer;
-    color: #214C54;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-.linkCompra:hover{
-    font-weight: bolder;
-}
+
 
 .boxBoton{
     display: flex;
@@ -148,15 +141,16 @@ body{
     align-items: center;
     text-align: center;
     height: 30px;
-    border: #214C54 solid 1px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #214C54 ;
     background-color: white;
     border-radius: 3px;
     padding: 0px;
 }
 .boxBoton:hover{
     color: #fff;
-    background-color: #214C54;
-    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1)
+    background-image: linear-gradient(to right bottom, #214c54, #124353, #0b3952, #122e4d, #1e2245);
+    transition: all 0.5s ease-in-out;
 }
 .boton {
     text-decoration: none;
