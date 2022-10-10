@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 body{
@@ -9,8 +10,8 @@ body{
 }
 
 .head{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     box-shadow: 0px 10px 10px -6px black;
@@ -30,28 +31,40 @@ body{
     font-weight: normal;
     text-decoration: none;
     padding-left: 20px;
+    margin-right: 20px;
 }
-.compra{
-    border-left: solid 5px #214C54 ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    text-align: center;
+
+.action1:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #A060FF;
+    transition: 0.3s ease;
 }
-.compra:hover{
-    border-radius: 3px;
-    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+.action1{
     color: #fff;
+    margin-right: 20px;
+    border-radius: 25px;
     background-color: #214C54;
-    transition: .5s ease all;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    overflow: hidden;
+    transition: all 0.5s;
+    width: 200px;
+
+}
+.action1::before{
+    content: attr(data-initial);
+    transition: all 0.3s ease-in-out;
+}
+
+.action1:hover::before{
+    content:attr(data-hover);
+    transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 600px){
     .head{
         grid-template-columns: 1fr 1fr;
-    }
-    .compra{
-        font-size: 14px;
     }
     .title1{
         font-size: 14px;
@@ -66,7 +79,7 @@ body{
         gap: 4px;
     }
     .card img{
-        height: 190px;
+        height: 185px;
     }
 }
 
