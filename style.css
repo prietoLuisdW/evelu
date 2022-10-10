@@ -59,6 +59,11 @@ body{
     .brand{
         font-size: 18px;
     }
+    .products{
+        justify-content: space-around;
+        gap: 8px;
+        margin-left: 5px;
+    }
 }
 
 .boxTitle{
@@ -85,24 +90,27 @@ body{
 }
 
 .products{
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 30px;
 }
+
+
 
 .card{
     border-radius: 3px;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .card:hover{
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
     transition: .5s ease all; 
 }
 .card img{
-    height: 350px;
+    height: 250px;
 }
 .linkCompra{
     text-decoration: none;
