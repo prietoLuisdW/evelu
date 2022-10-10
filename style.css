@@ -78,8 +78,8 @@ body{
         margin-left: 0px;
         gap: 4px;
     }
-    .card img{
-        height: 170px;
+    .card a img{
+        height: 200px;
     }
 }
 
