@@ -62,7 +62,7 @@ body{
     .products{
         justify-content: space-around;
         gap: 8px;
-        margin-left: 5px;
+        margin-left: 0px;
     }
 }
 
@@ -110,7 +110,7 @@ body{
     transition: .5s ease all; 
 }
 .card img{
-    height: 250px;
+    height: 180px;
 }
 .linkCompra{
     text-decoration: none;
